@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+:root{
+    --main-color:white;
+    --dark-color: black;
+    --secondary-color: goldenrod;
+
+}
+
+body{
+    background-color: var(--dark-color);
+    color: var(--main-color);
+    font-family: 'Roboto',sans-serif;
+}
+
+header{
+    background-color: var(--secondary-color);
+}
+header p{
+    margin: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
